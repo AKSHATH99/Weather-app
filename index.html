@@ -1,0 +1,50 @@
+<html>
+
+<head>
+    <title>WEATHER FETCHER</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <div class="card">
+        <div class="search">
+            <input type="text"  id="search" placeholder="ENTER THE CITY" spellcheck="false">
+            <button id="search-button" onclick="checkWeather()"><img src="search.png" alt=""></button>
+        </div>
+        <div class="error">
+            <p>INAVALID CITY NAME</p>
+        </div>
+
+        <div class="weather">
+            <img src="clear.png" alt="climate-img" class="weather-icon" id="weathericon">
+            <h1 class="temp">30°C</h1>
+            <h2 class="city">KANNUR</h2>
+            <div class="details">
+                <div class="col">
+                    <img src="humidity.png" alt="humidity-img">
+                    <div>
+                        <p class="humidity">50%</p>
+                        <p class="humidity">Humidity</p>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <img src="wind.png" alt="wind-img">
+                    <div>
+                        <p class="wind">50kmh</p>
+                        <p class="wind">Wind Sped</p>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
